@@ -1,0 +1,32 @@
+{
+  "name": "aaaleaderboard",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GintsM/Leaderboard.git"
+  },
+  "keywords": [],
+  "author": "GintsM",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GintsM/Leaderboard/issues"
+  },
+  "homepage": "https://github.com/GintsM/Leaderboard#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^6.5.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.3",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.64.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
