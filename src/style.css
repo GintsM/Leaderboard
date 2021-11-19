@@ -20,7 +20,7 @@ section {
   .scoreContainer {
     flex-direction: column;
   }
-  
+
   section {
     width: inherit;
   }
@@ -43,18 +43,14 @@ ul {
   border-radius: 8px;  
 }
 
-/* ul:nth-child(odd) {
-  background-color: rgb(226, 241, 198);
-} */
-
-#scoreList > li:nth-child(odd) {
-  background-color: antiquewhite;
-}
-
 li {
   list-style: none;
   border-bottom: 1px solid greenyellow;
   font-size: 20px;
+}
+
+#scoreList > li:nth-child(odd) {
+  background-color: antiquewhite;
 }
 
 form {
