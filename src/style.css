@@ -16,6 +16,16 @@ section {
   padding: 3%;
 }
 
+@media (max-width: 600px) {
+  .scoreContainer {
+    flex-direction: column;
+  }
+  
+  section {
+    width: inherit;
+  }
+}
+
 #recent {
   justify-content: space-between;
   align-items: baseline;
@@ -27,12 +37,42 @@ section {
 
 ul {
   border: 1px solid yellowgreen;
+  overflow: scroll;
+  padding: 5px;
+  height: 240px;
+  border-radius: 8px;  
+}
+
+/* ul:nth-child(odd) {
+  background-color: rgb(226, 241, 198);
+} */
+
+#scoreList > li:nth-child(odd) {
+  background-color: antiquewhite;
 }
 
 li {
   list-style: none;
+  border-bottom: 1px solid greenyellow;
+  font-size: 20px;
 }
 
 form {
   flex-direction: column;
+}
+
+input {
+  margin: 8px 0;
+  font-size: 16px;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+#name {
+  margin-top: 16px;
+}
+
+#submitBtn {
+  width: 100px;
+  align-self: end;
 }
