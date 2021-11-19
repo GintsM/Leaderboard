@@ -1,0 +1,38 @@
+body {
+  background-color: bisque;
+  padding: 8%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.flex {
+  display: flex;
+}
+
+section {
+  width: 33%;
+  padding: 3%;
+}
+
+#recent {
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+#refresh {
+  height: 24px;
+}
+
+ul {
+  border: 1px solid yellowgreen;
+}
+
+li {
+  list-style: none;
+}
+
+form {
+  flex-direction: column;
+}
