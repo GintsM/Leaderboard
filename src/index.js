@@ -7,7 +7,7 @@ const submitBtn = document.getElementById('submitBtn');
 const refreshBtn = document.getElementById('refresh');
 const getLink = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/RuYeeftBrKGkqg3FQ9Ck/scores/';
 
-const postScores = async(name, num) => {
+const postScores = async (name, num) => {
   const response = await fetch(getLink, {
     method: 'POST',
     headers: {
@@ -43,15 +43,15 @@ function validAddToScreen(str) {
 function validateToPost() {
   if (userName.value !== '' && userScore.value !== '') {
     postScores(userName.value, userScore.value)
-      .then(data => validAddToScreen(data.result));
+      .then((data) => validAddToScreen(data.result));
   }
 }
 
 function displayScores() {
   getScores(getLink)
-    .then(data => {
+    .then((data) => {
       scoreTable.innerHTML = '';
-      data.result.forEach(elem => addToScoreBord(elem.user, elem.score));
+      data.result.forEach((elem) => addToScoreBord(elem.user, elem.score));
     });
 }
 
