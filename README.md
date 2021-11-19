@@ -11,6 +11,26 @@
 - Webpack
 - VS code
 
+## Getting Started
+### Prerequisites:
+- Create an account on github
+
+- Install gitbash or use git on the command line.
+
+- Use an IDE of your preference such as VScode.
+
+### Steps to follow:
+- Choose a folder in your local machine where you want this repository to be copied
+
+- Clone this [repository](https://github.com/GintsM/Leaderboard) to your locaL machine with `git clone` command.
+It should look similar to this git clone https://github.com/smithj/azure-docs.git Enter your github credentials if prompted.
+
+- On the command line, at the project's root, run 'npm install' to install app dependencies.
+
+- Next, run 'npm start' which will run the app in the development mode.
+
+- Open the index.html file with the browser of your preference.
+
 ## Live Demo
 
 Live Demo is not yet available 
